@@ -4,18 +4,16 @@ import Announcement from './components/announcement/Announcement'
 import Landing from './components/home/landing/Landing'
 // import (SectionName) from (path)
 
-const App = () => {
+const Home = () => {
   return (
     <>
     <Announcement />
     <Navbar />
     <Landing />
 
-    <main className='main'>
-
-    </main>
+    <main className='main'></main>
     </>
   )
 }
 
-export default App
+export default Home

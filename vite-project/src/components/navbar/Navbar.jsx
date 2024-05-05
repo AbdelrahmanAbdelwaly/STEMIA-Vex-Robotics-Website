@@ -27,7 +27,7 @@ const Navbar = () => {
       <header className="primary-header">
         <div className="wrapper">
           <div className="primary-header__inner">
-            <img className="logo" src='/src/assets/sparkans_logo.png' href='index.'></img>
+            <img className="logo" src='/src/assets/sparkans_logo.png' href='#'></img>
             <ul className="nav-list">
               <li><a href="#">About Us</a></li>
               <li><a href="#">Teams</a></li>
