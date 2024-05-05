@@ -1,0 +1,56 @@
+.Teams_Section {
+  width: 100vw;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: #18191d;
+}
+
+.Title {
+  font-size: 50px;
+}
+
+.Teams_List {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  margin-top: 40px;
+  column-gap: 20px;
+}
+
+.Team_box {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100%;
+}
+
+.Teams_Images {
+  width: 200px;
+  height: 150px;
+  border-radius: 16px;
+}
+
+.t1 {
+  background-image: url('./Team1.png');
+}
+
+.t2 {
+  background-image: url('./Team2.png');
+}
+
+.t3 {
+  background-image: url('./Team3.png');
+}
+
+.Teams_Descriptions {
+  font-family: 'Spline Sans', 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  margin-top: 12px;
+}
