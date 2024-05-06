@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.loaded {
+  padding: 0;
+}
+
 a {
   font-size: .9375rem;
   font-weight: 600;

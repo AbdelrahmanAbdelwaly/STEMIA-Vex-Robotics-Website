@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.Timeline_Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Timeline_Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:50vw;
+}
+
+.timeline_journey {
+  font-size: 20px;
+  font-family: Poppins, "Slpine Sans", serif;
+  font-weight: 500;
+  letter-spacing: -.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.timeline_title {
+  margin-top: 5px;
+}
+
+:root {
+	--c-grey-100: #18191d;
+	--c-grey-200: #e3e3e3;
+	--c-grey-300: #b2b2b2;
+	--c-grey-400: #7b7b7b;
+	--c-grey-500: #ffffff;
+
+	--c-blue-500: rgb(0, 212, 255);
+}
+
+/* End basic CSS override */
+
+.Timeline_box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.timeline {
+	width: 50vw;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 32px 0 32px 32px;
+	border-left: 2px solid var(--c-grey-200);
+	font-size: 1.125rem;
+}
+
+.timeline-item {
+	display: flex;
+	gap: 24px;
+	& + * {
+		margin-top: 24px;
+	}
+	& + .extra-space {
+		margin-top: 48px;
+	}
+}
+
+.new-comment {
+	width: 100%;
+	input {
+		border: 1px solid var(--c-grey-200);
+		border-radius: 6px;
+		height: 48px;
+		padding: 0 16px;
+		width: 100%;
+		&::placeholder {
+			color: var(--c-grey-300);
+		}
+
+		&:focus {
+			border-color: var(--c-grey-300);
+			outline: 0; 
+			box-shadow: 0 0 0 4px var(--c-grey-100);
+		}
+	}
+}
+
+.timeline-item-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: -52px;
+	flex-shrink: 0;
+	overflow: hidden;
+	box-shadow: 0 0 6px #0000009e;
+	svg {
+    &.community_svg {
+      width: 18px;
+    }
+
+		width: 14px;
+	}
+
+	&.faded-icon {
+		background-color: var(--c-grey-100);
+		color: var(--c-grey-400);
+	}
+
+	&.filled-icon {
+		background-color: var(--c-blue-500);
+    box-shadow: 0 0 6px rgb(0, 212, 255);
+		color: #18191d;
+	}
+}
+
+.timeline-item-description {
+	display: flex;
+	padding-top: 6px;
+	gap: 8px;
+	color: var(--c-grey-400);
+
+	img {
+		flex-shrink: 0;
+	}
+	a {
+		color: var(--c-grey-500);
+    font-size: 16px;
+		font-weight: 00;
+		text-decoration: none;
+		&:hover,
+		&:focus {
+			color: var(--c-blue-500);
+      cursor:default;
+		}
+	}
+}
+
+.avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	overflow: hidden;
+	aspect-ratio: 1 / 1;
+	flex-shrink: 0;
+	width: 40px;
+	height: 40px;
+	&.small {
+		width: 28px;
+		height: 28px;
+	}
+
+	img {
+		object-fit: cover;
+	}
+}
+
+.i1 {
+  background: url('/src/assets/sparkans_logo.png');
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.i2 {
+  background: url('./mecha_mayhem.png');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.i3 {
+  background: url('./provincial.png');
+  background-size: 44px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

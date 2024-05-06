@@ -4,6 +4,7 @@ import './app.css'
 import Announcement from './components/announcement/Announcement'
 import Landing from './components/home/landing/Landing'
 import Teams from './components/home/teams/Teams'
+import Timeline from './components/home/timeline/Timeline'
 // import (SectionName) from (path)
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
     <Navbar />
     <Landing />
     <Teams />
+    <Timeline />
 
     <main className='main'></main>
     </>
