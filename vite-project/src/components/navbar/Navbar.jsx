@@ -37,7 +37,7 @@ const Navbar = () => {
               <li><a href="#">Sponsors</a></li>
             </ul>
             <button className='Connect_Button'>Connect</button>
-            <button className='Donate_Button'>Donate</button>
+            <button className='Donate_Button'>Sponsor Us</button>
           </div>
         </div>
       </header>

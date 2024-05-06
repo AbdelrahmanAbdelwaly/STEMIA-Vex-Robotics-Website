@@ -5,6 +5,7 @@ import Announcement from './components/announcement/Announcement'
 import Landing from './components/home/landing/Landing'
 import Teams from './components/home/teams/Teams'
 import Timeline from './components/home/timeline/Timeline'
+import Sponsors from './components/home/sponsors/Sponsors'
 // import (SectionName) from (path)
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
     <Landing />
     <Teams />
     <Timeline />
+    <Sponsors />
 
     <main className='main'></main>
     </>

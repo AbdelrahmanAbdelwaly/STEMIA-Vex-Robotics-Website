@@ -1,0 +1,52 @@
+.Sponsors_Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #18191d;
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Sponsors_Title {
+  box-sizing: border-box;
+  font-size: 28px;
+  font-family: 'Poppins', 'Slpine Sans', serif;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, .7);
+  text-align: center;
+}
+
+.sponsors_list {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.sponsor {
+  background: hsla(0, 0%, 0%, .4);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 116px;
+  width: 180px;
+  min-height: 116px;
+  opacity: 1;
+}
+
+.s1 {
+  background: url(s1.png);
+  background-size: cover;
+}
+
+.s2 {
+  background: url(s2.png);
+  background-size: cover;
+}
