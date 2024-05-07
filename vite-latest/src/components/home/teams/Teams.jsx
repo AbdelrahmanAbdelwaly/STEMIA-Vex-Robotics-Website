@@ -17,7 +17,7 @@ const Teams = () => {
         <a href='#'>
           <div className='Team_box'>
             <div className='Teams_Images t2'></div>
-            <p className='Teams_Descriptions'>Mysterious</p>
+            <p className='Teams_Descriptions'>44519D</p>
           </div>
         </a>
         <a href='#'>

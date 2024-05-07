@@ -40,7 +40,7 @@
   min-height: 116px;
   opacity: 1;
   filter: brightness(100%);
-  transition: all ease-in-out 100ms;
+  transition: all ease-in-out 150ms;
 }
 
 .sponsor:hover {
