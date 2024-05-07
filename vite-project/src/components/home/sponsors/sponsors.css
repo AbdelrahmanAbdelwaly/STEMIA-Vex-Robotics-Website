@@ -3,10 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #18191d;
   width: 100vw;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 75px;
+  background-color: #18191D;
 }
 
 .Sponsors_Title {
@@ -15,7 +15,7 @@
   font-family: 'Poppins', 'Slpine Sans', serif;
   font-weight: 500;
   letter-spacing: -0.5px;
-  line-height: 28px;
+  line-height: 26px;
   color: rgba(255, 255, 255, .7);
   text-align: center;
 }
@@ -39,6 +39,13 @@
   width: 180px;
   min-height: 116px;
   opacity: 1;
+  filter: brightness(100%);
+  transition: all ease-in-out 100ms;
+}
+
+.sponsor:hover {
+  cursor: pointer;
+  filter: brightness(110%);
 }
 
 .s1 {

@@ -6,6 +6,7 @@ import Landing from './components/home/landing/Landing'
 import Teams from './components/home/teams/Teams'
 import Timeline from './components/home/timeline/Timeline'
 import Sponsors from './components/home/sponsors/Sponsors'
+import Socials from './components/socials/Socials'
 // import (SectionName) from (path)
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
     <Teams />
     <Timeline />
     <Sponsors />
+    <Socials />
 
     <main className='main'></main>
     </>
