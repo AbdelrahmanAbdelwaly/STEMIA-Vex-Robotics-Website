@@ -127,6 +127,7 @@
   font-family: "Spline Sans", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   position: absolute;
+  top: 15%;
   right: 137px;
 }
 
@@ -151,6 +152,7 @@
   border: none;
   padding-left: 16px;
   padding-right: 16px;
+  top: 15%;
 }
 
 .Donate_Button:hover {
