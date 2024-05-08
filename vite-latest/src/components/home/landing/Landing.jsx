@@ -71,7 +71,6 @@ const Landing = () => {
         </div>
       </div>
     </div>
-    <div className='yap'></div>
     </>
   )
 }

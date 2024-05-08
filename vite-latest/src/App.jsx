@@ -1,12 +1,12 @@
-import Preloader from './components/preloader/Preloader'
-import Navbar from './components/navbar/Navbar'
+import Preloader from './components/global componenets/preloader/Preloader'
+import Navbar from './components/global componenets/navbar/Navbar'
 import './app.css'
-import Announcement from './components/announcement/Announcement'
+import Announcement from './components/global componenets/announcement/Announcement'
 import Landing from './components/home/landing/Landing'
 import Teams from './components/home/teams/Teams'
 import Timeline from './components/home/timeline/Timeline'
 import Sponsors from './components/home/sponsors/Sponsors'
-import Socials from './components/socials/Socials'
+import Socials from './components/global componenets/socials/Socials'
 // import (SectionName) from (path)
 
 const Home = () => {
